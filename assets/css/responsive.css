@@ -1,0 +1,82 @@
+/* Banner Responsive Css Start */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .banner_item .banner_content p{
+        padding: 9px 0 25px;
+     }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    #banner .banner_item{
+        height: 500px;
+    }
+    .banner_item .banner_content h1{
+        font-size: 56px;
+        padding-top: 140px;
+     }
+    .banner_item .banner_content p{
+        padding: 0 0 20px;
+        font-size: 20px;
+     }
+}
+/* Banner Responsive Css End */
+
+/* Service Responsive Css Start */
+@media (min-width: 576px) and (max-width: 767.98px){
+    #service .service_item:nth-child(1),
+    #service .service_item:nth-child(2){
+        padding-top: 110px;
+    }
+    #service .service_item{
+        padding: 0px 0 80px; 
+     }
+}
+
+/* Service Responsive Css End */
+
+/* Team Responsive Css Start */
+@media (min-width: 768px) and (max-width: 991.98px){
+    #team .team_member h6{
+        font-size: 19px;
+    }
+    #team .team_member p{
+        font-size: 12px;
+    }
+}
+
+/* Team Responsive Css End */
+
+/* Price Responsive Css Start */
+@media (min-width: 768px) and (max-width: 991.98px){
+    #price .price_item p{
+        font-size: 12px;
+        line-height: 30px;
+        padding: 0 30px;
+     }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    #price .price_item{
+        margin: 50px 0;
+    }
+}
+
+/* Price Responsive Css End */
+
+/* Contact Responsive Css Start */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .midium{
+        padding-bottom: 30px;
+    }
+    #contact .contact_item p{
+        padding-top: 15px;
+    }
+    #contact .social a{
+        margin: 15px 15px 15px 0;
+    }
+    #contact form .name{
+        padding-bottom: 25px;
+    }
+    #contact form textarea{
+        padding-top: 20px;
+    }
+}
+
+/* Contact Responsive Css End */
